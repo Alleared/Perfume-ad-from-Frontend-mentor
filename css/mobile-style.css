@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Montserrat&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Roboto", sans-serif;
+}
+
+.perfume-ad {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.preview-pic {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+.preview-information {
+    height: 310px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.product-type {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    text-transform: uppercase;
+    
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: rgb(127, 126, 134);
+}
+
+.product-title {
+    font-family: "Fraunces", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.product-description {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    font-size: 0.77rem;
+    color: rgb(144, 144, 146);
+}
+
+.prices-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+    width: 160px
+}
+
+.product-sale-price {
+    font-family: "Fraunces", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(0, 119, 119);
+}
+
+.product-full-price {
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    color: rgb(144, 144, 146);
+}
+
+.add-to-cart-button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 10px 80px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 6px;
+
+}
+
+.add-to-cart-button:hover, .add-to-cart-button:focus {
+    background-color: hsl(158, 100%, 14%)
+}
+
+.add-to-cart-button:active {
+    background-color: hsl(158, 100%, 37%)
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
